@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  background: #ECF4FF;
+  margin: 64px;/*margem do elemento anterior, no caso body*/
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  color: #1C1C1C;/*cor da fonte*/
+  padding: 64px;/*margem interna*/ 
+}
+.header { 
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.perfil{
+  display:flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height:160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ 
+}
+.titulo {
+  margin-left:16px;
+}
+.titulo h1{  /*Desejo estilizar a tag h1 que está ,necessarioamente ,dentro de um elemento com classe titulo*/
+  font-weight:700;
+  font-size: 36px;
+}
+.titulo h3{  /*Desejo estilizar a tag h1 que está ,necessarioamente ,dentro de um elemento com classe titulo*/
+  font-weight:400;
+  font-size: 24px;
+}
+.tema button {
+   align-self: flex-end; 
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ECF4FF;
+  border-radius:160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.projetos {
+  margin-top: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+border-radius: 20px;
+}
+.projeto-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size:36px;
+}
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height:48px;
+  margin-right:30px;
+}
+.projetos-item a /*retira o estilo da âncora*/  {  
+  color: #1C1C1C;
+  text-decoration:none;
+}
+.bottom {
+  margin-top:10px;
+  display:flex;
+}
+.github {
+  border-radius: 460px;
+  max-height:25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  border-color:white;
+  border-width:2px;
+  background:white;
+  padding-left:6px;
+  padding-right:6px;
+}
+.github a{
+  color: #1C1C1C;
+  text-decoration:none;
+}
+.insta {
+  border-radius: 460px;
+  max-height:25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  border-color:white;
+  border-width:2px;
+  background:white;
+  padding-left:6px;
+  padding-right:6px;
+  margin-left:4px;
+}
+.insta a{
+  color: #1C1C1C;
+  text-decoration:none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+
+.dark .container {
+  background:#333439;
+  color: #F7F7F7;
+}
+
+.dark .projetos {
+  color: #1C1C1C;
+}
+
+.dark .tema button {
+  background:#333439;
+  color:#ffffff;
+  border: 2px solid #f7f7f7;
+}
